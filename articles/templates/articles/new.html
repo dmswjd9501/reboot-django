@@ -1,0 +1,19 @@
+
+{% block body %}
+<h1>글 생성하기</h1>
+  <hr>
+  <br>
+  <form action="/articles/create/">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">글 제목</label>
+      <input type="title" class="form-control" name="title" id="exampleFormControlInput1" placeholder="글 제목을 입력해주세요.">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">글 내용</label>
+      <textarea class="form-control" name="content" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+{% endblock %}
