@@ -19,4 +19,3 @@
 * U
   * `/1/edit/` : 글 수정 form
   * `/1/update/ ` : 저장 후 Read로 보내기
-
